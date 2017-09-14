@@ -30,3 +30,13 @@
 #sidenav-overlay { 
 	z-index: 1;
 }
+
+.card-action {
+	display: flex;
+	justify-content: space-between;
+}
+
+.price {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
