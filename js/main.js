@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	$('.parallax').parallax();
-	$('.scrollspy').scrollSpy({scrollOffset: 56});
+	$('.scrollspy').scrollSpy();
 	$('.scrollspy').on('scrollSpy:enter', function() {
 		$('.navbar-fixed').find('a[href="#'+$(this).attr('id')+'"]').parent().addClass('active'); //add active class to the li of the nav link
 	});
