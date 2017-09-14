@@ -1,5 +1,5 @@
 .parallax-container {
-  height: 900px;
+  height: 1000px;
 }
 
 .title {
@@ -21,4 +21,12 @@
 
 .emphasize {
 	font-weight: 900;
+}
+
+.indent {
+	text-indent: 40px;
+}
+
+#sidenav-overlay { 
+	z-index: 1;
 }
